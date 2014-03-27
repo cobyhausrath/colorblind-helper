@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "css": [ "new.css" ],
+      "matches": [ "*://www.okcupid.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu2w1QGyEvPIoNEUmT87kOWDNuaAFQqILjvHHENKEZ8Wbw0hFNEsaADuwJa38XLJUcIHACa14bBzF51yvzwoeXlADAOxXl83gK1zBFuzMVnJcnbWAJPcvpRnvvX0D8CpalpkX0TG99cXj0XD7Pp/n6mUbeOj4QzAqWMOPJsuVqbZyJRVr2usaHB6lTzlbGpgUduB6qPW7cnUOfG6i7iS1y910zpf1y0AG6RZC0nJ9lV6+rJ/3K1HEz/84qN89x3kEYwqfcda8ZaTBBdmpkACMnT9VKJxvPLDw2ngfcl2ygq9aECeOaoenp+nsX/ucK8C7oRbuJ8tRWOAZZwgkdOmRFwIDAQAB",
+   "manifest_version": 2,
+   "name": "Colorblind Helper",
+   "short_name": "Colorblind Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
