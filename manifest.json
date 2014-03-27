@@ -1,7 +1,11 @@
 {
    "content_scripts": [ {
-      "css": [ "new.css" ],
+      "css": [ "okcupid.css" ],
       "matches": [ "*://www.okcupid.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "ebay.css" ],
+      "matches": [ "*://*.ebay.com/*", "*://*.ebay.com.au/*", "*://*.ebay.at/*", "*://*.ebay.be/*", "*://*.ebay.ca/*", "*://*.ebay.com.cn/*", "*://*.ebay.fr/*", "*://*.ebay.de/*", "*://*.ebay.com.hk/*", "*://*.ebay.in/*", "*://*.ebay.ie/*", "*://*.ebay.it/*", "*://*.ebay.com.my/*", "*://*.ebay.nl/*", "*://*.ebay.ph/*", "*://*.ebay.pl/*", "*://*.ebay.com.sg/*", "*://*.ebay.es/*", "*://*.ebay.ch/*", "*://*.ebay.co.uk/*" ],
       "run_at": "document_start"
    } ],
    "icons": {
@@ -12,5 +16,5 @@
    "name": "Colorblind Helper",
    "short_name": "Colorblind Helper",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+   "version": "1.1"
 }
